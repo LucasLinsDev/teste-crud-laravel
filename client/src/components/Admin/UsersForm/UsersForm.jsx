@@ -120,9 +120,9 @@ export function UsersForm() {
               }}
             >
               <MenuItem value={"1"}>Admin</MenuItem>
-              <MenuItem value={"2"}>Usuario</MenuItem>
-              <MenuItem value={"3"}>Visitante</MenuItem>
-            </Select>
+              <MenuItem value={"2"}>Gerente</MenuItem>
+              <MenuItem value={"3"}>Normal</MenuItem>
+          </Select>
           </FormControl>
 
           <Button type="submit" variant="contained">
