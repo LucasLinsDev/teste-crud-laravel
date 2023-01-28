@@ -19,19 +19,19 @@ class DatabaseSeeder extends Seeder
     {
 
     //  \App\Models\User::factory(10)->create();
-     \App\Models\Pessoa::factory(10)->create();
-    //   Categoria::create([
-    //     'nome' => 'Admin',
 
-    //     ]);
-    //     Categoria::create([
-    //         'nome' => 'Gerente',
+      Categoria::create([
+        'nome' => 'Admin',
 
-    //         ]);
-    //         Categoria::create([
-    //             'nome' => 'Normal',
+        ]);
+        Categoria::create([
+            'nome' => 'Gerente',
 
-    //             ]);
+            ]);
+            Categoria::create([
+                'nome' => 'Normal',
 
+                ]);
+                \App\Models\Pessoa::factory(500)->create();
     }
 }
