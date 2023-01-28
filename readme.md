@@ -15,11 +15,11 @@ Inicie o servidor com o comando php artisan serve
 # Utilização
 # A API possui as seguintes rotas:
 
-° GET /pessoas Retorna uma lista de todos os itens
-° GET /pessoas/{id}: Retorna um item específico pelo seu ID
-° POST /pessoas: Cria um novo item
-° PUT /pessoas/{id}: Atualiza um item específico pelo seu ID
-° DELETE /pessoas/{id}: Exclui um item específico pelo seu ID
+1. GET /pessoas Retorna uma lista de todos os itens
+2. GET /pessoas/{id}: Retorna um item específico pelo seu ID
+3. POST /pessoas: Cria um novo item
+4. PUT /pessoas/{id}: Atualiza um item específico pelo seu ID
+5. DELETE /pessoas/{id}: Exclui um item específico pelo seu ID
 Cada rota possui seus próprios parâmetros e campos de retorno específicos, que podem ser encontrados na documentação da API.
 
 
